@@ -32,5 +32,9 @@ class XCS_DemoTests: XCTestCase {
             // Put the code you want to measure the time of here.
         }
     }
+    func testLaunchApp() {
+        XCUIApplication().launch()
+
+    }
     
 }
