@@ -33,6 +33,8 @@ class XCS_DemoTests: XCTestCase {
         }
     }
     func testLaunchApp() {
+        //testing comments...
+        //hello comments...
         XCUIApplication().launch()
 
     }
