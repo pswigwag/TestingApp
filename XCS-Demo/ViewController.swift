@@ -19,7 +19,11 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+func sumNumber(){
+    
+    let sum  =  2 + 3
+    println(sum)
+}
 
 }
 
