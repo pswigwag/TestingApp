@@ -22,6 +22,7 @@ class ViewController: UIViewController {
 func sumNumber(){
     
     let sum  =  2 + 3
+    println(sum)
    
 }
 
