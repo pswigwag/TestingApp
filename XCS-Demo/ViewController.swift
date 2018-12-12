@@ -27,8 +27,9 @@ func sumNumber(){
 }
     func testFunction1(){
         
-        println("test fail....")
+        print("test fail....")
         
 
+}
 }
 
