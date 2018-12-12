@@ -31,5 +31,11 @@ func sumNumber(){
         
 
 }
+     func testFunction2(){
+        
+        print("test fail....")
+        
+
+}
 }
 
