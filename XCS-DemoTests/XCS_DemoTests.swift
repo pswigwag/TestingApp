@@ -38,5 +38,11 @@ class XCS_DemoTests: XCTestCase {
         XCUIApplication().launch()
 
     }
+    func testFail() {
+        //testing comments...
+        //hello comments...
+        XCTFail()
+        
+    }
     
 }
