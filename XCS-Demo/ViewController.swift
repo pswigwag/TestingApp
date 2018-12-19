@@ -12,6 +12,8 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        let appVersion = Bundle.main.infoDictionary!["CFBundleVersion"] as? String
+        print(appVersion)
         // Do any additional setup after loading the view, typically from a nib.
     }
 
