@@ -194,6 +194,7 @@
 				9B13CAFE1EE8884500B7DD69 /* Sources */,
 				9B13CAFF1EE8884500B7DD69 /* Frameworks */,
 				9B13CB001EE8884500B7DD69 /* Resources */,
+				08761B2B21C8EF4700AF825E /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -320,6 +321,26 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		08761B2B21C8EF4700AF825E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nXCS-Demo/scripts/buildNumberScriptFile.sh \n\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9B13CAFE1EE8884500B7DD69 /* Sources */ = {
@@ -499,9 +520,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4UULRQP3X8;
 				INFOPLIST_FILE = "XCS-Demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "shashi.XCS-Demo";
+				PRODUCT_BUNDLE_IDENTIFIER = wigwagenterprise1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -512,9 +534,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4UULRQP3X8;
 				INFOPLIST_FILE = "XCS-Demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "shashi.XCS-Demo";
+				PRODUCT_BUNDLE_IDENTIFIER = wigwagenterprise1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
