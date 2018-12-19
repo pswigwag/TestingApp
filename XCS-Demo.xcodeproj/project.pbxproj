@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		08761B2A21C8EE0C00AF825E /* buildNumberScriptFile.sh in Resources */ = {isa = PBXBuildFile; fileRef = 08761B2921C8EE0C00AF825E /* buildNumberScriptFile.sh */; };
+		08761B2D21CA58A600AF825E /* Test-Reports.xml in Resources */ = {isa = PBXBuildFile; fileRef = 08761B2C21CA58A600AF825E /* Test-Reports.xml */; };
 		9B13CB061EE8884500B7DD69 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B13CB051EE8884500B7DD69 /* AppDelegate.swift */; };
 		9B13CB081EE8884500B7DD69 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B13CB071EE8884500B7DD69 /* ViewController.swift */; };
 		9B13CB0B1EE8884600B7DD69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B13CB091EE8884600B7DD69 /* Main.storyboard */; };
@@ -39,6 +40,7 @@
 
 /* Begin PBXFileReference section */
 		08761B2921C8EE0C00AF825E /* buildNumberScriptFile.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = buildNumberScriptFile.sh; sourceTree = "<group>"; };
+		08761B2C21CA58A600AF825E /* Test-Reports.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Test-Reports.xml"; sourceTree = "<group>"; };
 		9B13CB021EE8884500B7DD69 /* XCS-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "XCS-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B13CB051EE8884500B7DD69 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9B13CB071EE8884500B7DD69 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -120,6 +122,7 @@
 		9B13CB041EE8884500B7DD69 /* XCS-Demo */ = {
 			isa = PBXGroup;
 			children = (
+				08761B2C21CA58A600AF825E /* Test-Reports.xml */,
 				08761B2821C8ED0C00AF825E /* scripts */,
 				9B13CB051EE8884500B7DD69 /* AppDelegate.swift */,
 				9B13CB071EE8884500B7DD69 /* ViewController.swift */,
@@ -295,6 +298,7 @@
 				9B13CB101EE8884600B7DD69 /* LaunchScreen.storyboard in Resources */,
 				9B13CB0D1EE8884600B7DD69 /* Assets.xcassets in Resources */,
 				9B13CB0B1EE8884600B7DD69 /* Main.storyboard in Resources */,
+				08761B2D21CA58A600AF825E /* Test-Reports.xml in Resources */,
 				08761B2A21C8EE0C00AF825E /* buildNumberScriptFile.sh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
