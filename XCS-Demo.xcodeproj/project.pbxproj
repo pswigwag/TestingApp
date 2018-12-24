@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		08761B2A21C8EE0C00AF825E /* buildNumberScriptFile.sh in Resources */ = {isa = PBXBuildFile; fileRef = 08761B2921C8EE0C00AF825E /* buildNumberScriptFile.sh */; };
 		08761B2D21CA58A600AF825E /* Test-Reports.xml in Resources */ = {isa = PBXBuildFile; fileRef = 08761B2C21CA58A600AF825E /* Test-Reports.xml */; };
+		088F099E21D0F48F0056EB10 /* XCS-DemoUnitTestlogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088F099D21D0F48F0056EB10 /* XCS-DemoUnitTestlogin.swift */; };
 		9B13CB061EE8884500B7DD69 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B13CB051EE8884500B7DD69 /* AppDelegate.swift */; };
 		9B13CB081EE8884500B7DD69 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B13CB071EE8884500B7DD69 /* ViewController.swift */; };
 		9B13CB0B1EE8884600B7DD69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B13CB091EE8884600B7DD69 /* Main.storyboard */; };
@@ -41,6 +42,7 @@
 /* Begin PBXFileReference section */
 		08761B2921C8EE0C00AF825E /* buildNumberScriptFile.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = buildNumberScriptFile.sh; sourceTree = "<group>"; };
 		08761B2C21CA58A600AF825E /* Test-Reports.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Test-Reports.xml"; sourceTree = "<group>"; };
+		088F099D21D0F48F0056EB10 /* XCS-DemoUnitTestlogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCS-DemoUnitTestlogin.swift"; sourceTree = "<group>"; };
 		9B13CB021EE8884500B7DD69 /* XCS-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "XCS-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B13CB051EE8884500B7DD69 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9B13CB071EE8884500B7DD69 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,10 +101,19 @@
 			path = scripts;
 			sourceTree = "<group>";
 		};
+		088F099F21D0F4980056EB10 /* Unit Test */ = {
+			isa = PBXGroup;
+			children = (
+				088F099D21D0F48F0056EB10 /* XCS-DemoUnitTestlogin.swift */,
+			);
+			path = "Unit Test";
+			sourceTree = "<group>";
+		};
 		9B13CAF91EE8884500B7DD69 = {
 			isa = PBXGroup;
 			children = (
 				9B13CB041EE8884500B7DD69 /* XCS-Demo */,
+				088F099F21D0F4980056EB10 /* Unit Test */,
 				9B13CB191EE8884600B7DD69 /* XCS-DemoTests */,
 				9B13CB2D1EE8885600B7DD69 /* BDD */,
 				9B13CB031EE8884500B7DD69 /* Products */,
@@ -361,6 +372,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B13CB1B1EE8884600B7DD69 /* XCS_DemoTests.swift in Sources */,
+				088F099E21D0F48F0056EB10 /* XCS-DemoUnitTestlogin.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
