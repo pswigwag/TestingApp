@@ -44,5 +44,10 @@ class XCS_DemoTests: XCTestCase {
         XCTFail()
         
     }
-    
+     func testFail1() {
+        //testing comments...
+        //hello comments...
+        XCTFail()
+        
+    }
 }
