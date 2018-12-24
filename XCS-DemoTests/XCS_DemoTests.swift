@@ -7,7 +7,6 @@
 //
 
 import XCTest
-@testable import XCS_Demo
 
 class XCS_DemoTests: XCTestCase {
     
