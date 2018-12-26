@@ -33,7 +33,7 @@ class XCS_DemoTests: XCTestCase {
     }
     func testPass(){
      
-        
+      XCFail()  
     }
    
     
